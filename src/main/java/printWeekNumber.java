@@ -1,5 +1,6 @@
 public class printWeekNumber {
     public static void main (String[]args){
+        // nested if loop
          int weekno=1;
            if(weekno==1){
                System.out.println("Sunday");
