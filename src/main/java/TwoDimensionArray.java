@@ -1,4 +1,4 @@
-public class TwoDimensionArray {
+public class  TwoDimensionArray {
     public static void main(String[] args) {
         int a[][]=new int[3][2];
         //int[]a[]=[3][2];
@@ -20,7 +20,7 @@ public class TwoDimensionArray {
         System.out.println("number of columns:"+b[0].length);
         System.out.println(b[1][1]);
         for( int r=0;r<=2;r++) {
-            for (int c=0;c<=1;c++) {
+            for (int c=0;c<a[r].length;c++) {
                 System.out.print(b[r][c]+" ");
             }
             System.out.println();
