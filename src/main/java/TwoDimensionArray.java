@@ -16,15 +16,24 @@ public class  TwoDimensionArray {
      int b[][]={ {100,120},
                  {200,210},
                  {300,310}};
-        System.out.println("Number of rows:"+b.length);
+       /* System.out.println("Number of rows:"+b.length);
         System.out.println("number of columns:"+b[0].length);
         System.out.println(b[1][1]);
         for( int r=0;r<=2;r++) {
-            for (int c=0;c<a[r].length;c++) {
+            for (int c=0;c<=a[r].length-1;c++) {
                 System.out.print(b[r][c]+" ");
             }
             System.out.println();
         }
+        }*/
+        for(int arr[]:b){
+
+            for( int x: arr){
+                System.out.print(x+" ");
+            }
+            System.out.println();
+        }
+
         }
     }
 
